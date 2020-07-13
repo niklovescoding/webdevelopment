@@ -1,0 +1,118 @@
+body {
+  color: #40514E;
+  margin: 0 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  margin: 100px 100px;
+}
+.bottomcontainer {
+  margin-bottom: 0;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+.pro {
+  text-decoration: underline;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.skill-row{
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+.skill-image1{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-image2{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto 100px auto;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+p{
+  line-height: 2;
+}
+.contact_message{
+  width: 40%;
+  margin: 40px auto 40px auto;
+}
+.myButton {
+  box-shadow: 0px 1px 0px 0px #f0f7fa;
+  background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+  background-color:#33bdef;
+  border-radius:6px;
+  border:1px solid #057fd0;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px -1px 0px #5b6178;
+}
+.myButton:hover {
+  background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+  background-color:#019ad2;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+.skills{
+  margin-bottom: 50px;
+}
+a{
+  color: #11999E;
+  padding: 0 10px 0 10px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.copyright{
+  margin-top: 50px;
+  font-size: 0.75rem;
+}
